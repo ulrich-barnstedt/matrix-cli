@@ -1,5 +1,5 @@
-const chars = require("./charset.json");
-const Matrix = require("./matrix");
+const Matrix = require("./matrix.js");
+const charset = require("./charset.json");
 
-let matrix = new Matrix(chars);
+let matrix = new Matrix(charset);
 matrix.draw();
