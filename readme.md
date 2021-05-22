@@ -29,4 +29,4 @@ setTimeout(() => {
 
 ### Screenshots
 
-![Default color](https://i.imgur.com/8NzvGpa.png)
+![Default color](https://i.imgur.com/3nywD7R.png)
