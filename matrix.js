@@ -55,7 +55,7 @@ class ScreenBuffer {
         for (let y = 0; y < this.size.y; y++) {
             for (let x = 0; x < this.size.x; x++) {
                 if (toRender[x][y] !== -1) {
-                    this.moveCursor(x, y);
+                    if (x === 0 || toRender[x - 1][y] === -1) this.moveCursor(x, y);
                     process.stdout.write(this.buffer[x][y]);
                 }
             }
